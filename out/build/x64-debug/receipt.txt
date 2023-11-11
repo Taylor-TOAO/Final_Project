@@ -1,0 +1,6 @@
+Username: def
+-------------------------------------------
+Total stock:                    $  37500.00
+Commission:                     $   1125.00
+Total amount:                   $  38625.00
+Net worth in 75 years:          $5995350.72

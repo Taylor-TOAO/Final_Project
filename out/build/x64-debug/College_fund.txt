@@ -1,0 +1,6 @@
+Hello: def
+-------------------------------------------
+Principle:                      10000.00
+Interest Rate:                      7.00
+Saving Period (in month):             12
+Net worth after 1 years:        78314.88
