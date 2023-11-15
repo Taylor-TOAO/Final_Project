@@ -1,8 +1,8 @@
 #include "A.h"
 
-StockInvestmentCalculator::StockInvestmentCalculator(){
-    double shares=0, price=0, comm=0, annreturn=0, amount=0, acomm=0, totalA=0, total=0;
-}
+StockInvestmentCalculator::StockInvestmentCalculator()://Constructor
+    shares(0), price(0), comm(0), annreturn(0), amount(0), acomm(0), totalA(0), total(0) {}//Initializer list
+
 
     void StockInvestmentCalculator::calculate10yearEarnings(const string& username) 
     {

@@ -1,7 +1,7 @@
 #include "B.h"
 
-InvestmentCalculator::InvestmentCalculator(const string& file, const string& username)
-    : shares(0), price(0), comm(0), annreturn(0), years(0), amount(0), acomm(0), total(0) {}
+InvestmentCalculator::InvestmentCalculator(const string& file, const string& username)//Constructor
+    : shares(0), price(0), comm(0), annreturn(0), years(0), amount(0), acomm(0), total(0) {}//Initializer list
     //void loadPortfolioDataFromFile();
     //void calculateEarnings();
     //void generateReceipt(string username);

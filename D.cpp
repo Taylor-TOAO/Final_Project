@@ -1,16 +1,16 @@
 #include "D.h"
 
-CollegeFundCalculator::CollegeFundCalculator() 
-    : D_Principle(0), D_IR(0), networth(0), total(0), months(), years() {}
+CollegeFundCalculator::CollegeFundCalculator() //Constructor
+    : D_Principle(0), D_IR(0), networth(0), total(0), months(), years() {}//Initilizer list
 
     void CollegeFundCalculator::getInput() {
         //Principle is the intial investment amount
         //Interest rate is the expected annual interest rate (typically 7 percent) expressed as a percentage
         //So for 7%, just type 7
         cout << "Please enter the following:" << endl;
-        cout << "Principle: ";
+        cout << "Initial Investment: ";
         cin >> D_Principle;
-        cout << "Interest rate: ";
+        cout << "Expected interest rate: ";
         cin >> D_IR;
     }
 

@@ -1,7 +1,7 @@
 #include "C.h"
 
-MortgageCalculator::MortgageCalculator(const string& file, const string& username)
-    : principle(0), interest_rate(0), loan_term(0), monthly_payment(0) {}
+MortgageCalculator::MortgageCalculator(const string& file, const string& username)//Constructor
+    : principle(0), interest_rate(0), loan_term(0), monthly_payment(0) {}//Initializer list
 
 
 void MortgageCalculator::loadInputDataFromFile(const string& file) {
